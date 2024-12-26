@@ -707,7 +707,7 @@ body {
 .contacts {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 20px;
 }
 
 .contacts-elements {
