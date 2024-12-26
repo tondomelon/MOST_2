@@ -1,0 +1,545 @@
+body {
+    margin: 0;
+    font-family: 'TT Travels Text Trl';
+    color: #fff;
+    font-weight: 400;
+    font-size: 28px;
+    background-color: #0C0C0B;
+}
+
+* {
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'TT Travels Text Trl';
+    src: url(./font/TT-Travels-Text-VF-Trial.woff) format('opentype');
+    font-display: swap;
+}
+
+/* контейнер */
+
+.container {
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+/* Шапка */
+
+.header {
+    background: url(./img/promo-img.png) center no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.header__nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 40px;
+}
+
+.nav {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.nav-list {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    color: #E1FF2D;
+    animation-duration: 0.2ms;
+}
+
+/* 1 блок */
+
+.promo-block {
+    text-align: center;
+    padding: 181px 128px;
+}
+
+.promo-block__logo {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.promo-block__title {
+    padding-top: 64px;
+    padding-bottom: 4px;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #E1FF2D;
+}
+
+.promo-block__subtitle {
+    font-size: 16px;
+}
+
+/* Разделитель */
+
+.separator {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    color: #000;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.separator-inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 33px 0px;
+}
+
+.separator-title {
+    font-weight: 700;
+}
+
+/* Блок о медиа + общие правила*/
+
+.section {
+    padding: 100px 0 100px 0;
+}
+
+.title {
+    font-size: 40px;
+    color: #E1FF2D;
+    text-transform: uppercase;
+    max-width: 1125px;
+    padding-bottom: 24px;
+}
+
+.text {
+    max-width: 760px;
+    padding-bottom: 85px;
+}
+
+/* Разделы с бордерами */
+
+.text__options {
+    max-width: 760px;
+    padding-bottom: 45px;
+}
+
+.about-media-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 85px;
+}
+
+.option {
+    width: 315px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    color: #E1FF2D;
+    border: 1px solid #E1FF2D;
+    padding: 14px 0 14px 0;
+    border-radius: 10px;
+}
+
+/* Ценности c карточками */
+
+.values {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.value-card {
+    color: #E1FF2D;
+    border: 1px solid #E1FF2D;
+    border-radius: 10px;
+    padding: 24px 32px 45px 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 581px;
+    height: 136px;
+}
+
+.value-card__title {
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 8px;
+}
+
+.value-card__text {
+    font-size: 18px;
+}
+
+/* Блок о логотипе */
+
+.under-title__descriprion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.text2 {
+    max-width: 648px;
+    padding-bottom: 85px;
+}
+
+.caption {
+    font-size: 24px;
+    padding-bottom: 24px;
+}
+
+/* Логотип и его части */
+
+.logo-parts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+
+.logo-part__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 648px;
+    height: 458px;
+    border: 1px solid #E1FF2D;
+    border-radius: 10px;
+    color: #E1FF2D;
+}
+
+.start-form {
+    padding: 83px 0 108px 0;
+    max-width: 100%;
+    height: auto;
+}
+
+.font-form {
+    font-size: 128px;
+    font-weight: 700;
+    color: #fff;
+    padding: 137px 0 83px 0;
+}
+
+.total-logo {
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    padding: 106px 0 106px 0;
+}
+
+/* Охранное поле */
+
+.security-area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 21px 0px 110px 0px;
+}
+
+.security-area__logo {
+    max-width: 100%;
+    height: auto;
+}
+
+.font-description {
+    font-size: 20px;
+    max-width: 414px;
+    padding-bottom: 37px;
+}
+
+.font-reference {
+    max-width: 100%;
+    height: auto;
+}
+
+.font-name {
+    padding-top: 24px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.logo-variants {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.logo-variant {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 424px;
+    height: 256px;
+}
+
+.logo-variant-large {
+    display: flex;
+    justify-content: center;
+    background: url(./img/back-logo-img.png) center no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+    margin-top: 24px;
+}
+
+.logo-min {
+    max-width: 100%;
+    height: 121px;
+}
+
+.logo-large {
+    max-width: 100%;
+    height: 260px;
+    padding: 160px 0px 160px 0px;
+}
+
+/* варианты карточек */
+
+/* О палитре */
+
+.palette-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.color-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 376px;
+    height: 282px;
+    border-radius: 10px;
+    padding: 24px;
+    background-color: #fff;
+    color: #000;
+}
+
+.color-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.color-hex {
+    font-size: 20px;
+}
+
+.sun {
+    background-color: #FFBA4B;
+}
+
+.purple-red {
+    background-color: #F5598A;
+}
+
+.craiola {
+    background-color: #95DBD9;
+}
+
+.sulphur {
+    width: 600px;
+    height: 282px;
+    background-color: #E1FF2D;
+}
+
+.white {
+    width: 264px;
+}
+
+.amber {
+    width: 264px;
+    background-color: #0C0C0B;
+    color: #fff;
+    /* border: 2px solid #fff; */
+    box-shadow: inset 0 0 0 2px #ffffff;
+}
+
+/* Типографика */
+
+.under-title__descriprion2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.font-example {
+    max-width: 648px;
+    padding-bottom: 85px;
+    font-size: 126px;
+    font-weight: 500;
+    padding-left: 24px;
+}
+
+.typesettings {
+    display: flex;
+    gap: 136px;
+}
+
+.boldness {
+    font-size: 40px;
+    padding-bottom: 16px;
+    color: #E1FF2D;
+}
+
+.regular {
+    font-weight: 400;
+}
+
+.symbols {
+    font-size: 24px;
+    max-width: 536px;
+}
+
+.text-examples {
+    padding-top: 104px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.text-example {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-example__bold {
+    font-size: 64px;
+    text-transform: uppercase;
+    max-width: 1096px;
+    padding-bottom: 24px;
+}
+
+.title-example {
+    max-width: 1096px;
+    font-weight: 400;
+}
+
+.example-description__bold {
+    padding-top: 17px;
+    font-size: 24px;
+}
+
+.example-description {
+    font-size: 24px;
+}
+
+/* Сетка */
+
+.grid-settings {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 46px 0px 24px 0px;
+}
+
+.setting {
+    width: 310px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    color: #E1FF2D;
+    border: 1px solid #E1FF2D;
+    padding: 14px 0 14px 0;
+    border-radius: 10px;
+}
+
+.grid-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.grid-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Элементы */
+
+.element-settings {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 26px 0px 24px 0px;
+}
+
+.element-setting {
+    width: 424px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    color: #E1FF2D;
+    border: 1px solid #E1FF2D;
+    padding: 14px 0 14px 0;
+    border-radius: 10px;
+}
+
+.graphic-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 22px;
+}
+
+.style-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Подбор фотографий */
+
+.example-img-large {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    padding-bottom: 14px;
+}
+
+.examples-img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: space-between;
+}
+
+.example-img-small {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Носители фирстиля */
+
+.mockups-img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+    padding-bottom: 24px;
+}
