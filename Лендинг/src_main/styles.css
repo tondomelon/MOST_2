@@ -707,13 +707,13 @@ body {
 .contacts {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 30px;
 }
 
 .contacts-elements {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
     padding-bottom: 55px;
 }
 
