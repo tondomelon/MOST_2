@@ -713,7 +713,7 @@ body {
 .contacts-elements {
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
     padding-bottom: 55px;
 }
 
